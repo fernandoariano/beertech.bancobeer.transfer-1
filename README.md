@@ -12,7 +12,7 @@ Postgres user: postgres
 Postgres password: password  
 
 # How to test locally
-- Clone the repo @ https://github.com/victorhrgc/beertech.bancobeer.git
+- Clone the repo @ https://github.com/victorhrgc/beertech.bancobeer.transfer.git
 - docker-compose up in the root directory to start the postgres and the rabbit container
 - Login into rabbit, go to the 'Queues' tab to add a new queue named 'rk.consumer.rabbitmq'
 
